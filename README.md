@@ -11,6 +11,18 @@
 - Create BrowserRouter > Routes > Route = /Body > RouteChildren
 - Create an OutLet in the Body Component
 - Create the Footer and add social media links
+- Create a Login Page
+- install axios
+   https://github.com/axios/axios?tab=readme-ov-file#axios-api
+- CORS - install cors in backend => add middleware with configurations: origin,credentials:true
+     https://github.com/expressjs/cors
+- whenever you are making API call so pass => axios => {withCredentials:true} ,if you don't pass it then it will not send the token in other API calls
+
+- install react-redux + @reduxjs/toolkit - https://redux-toolkit.js.org/introduction/getting-started => configureStore => Provider => createSlice => add reducer to store
+
+- login and see if the data is being passed properly in the store
+- NavBar should update as soon as user login
+- Refactor the code to add constants file + create a component folder
 
 
 
