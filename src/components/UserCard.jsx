@@ -1,7 +1,6 @@
 import React from 'react';
 
 const UserCard = ({ user = {} }) => {
-   
 
     const { firstName = '', lastName = '', photoUrl = '', age = '', about = '', skills = [] } = user;
 
@@ -40,5 +39,4 @@ const UserCard = ({ user = {} }) => {
         </div>
     );
 };
-
 export default UserCard;

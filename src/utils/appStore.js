@@ -8,5 +8,4 @@ const appStore = configureStore({
         feed: feedReducer
     },
 });
-
 export default appStore;

@@ -20,7 +20,6 @@ const NavBar = () => {
             console.log(err);
         }
     }
-
     return (
         <div className="navbar bg-gray-500">
             <div className="flex-1">
