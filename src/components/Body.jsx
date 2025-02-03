@@ -9,9 +9,10 @@ import { addUser } from '../utils/userSlice'
 
 const Body = () => {
 
+  
+  const userData = useSelector((store) => store.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const userData = useSelector((store) => store.user);
   const fetchUser = async () => {
     if (userData) {
       return

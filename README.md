@@ -28,6 +28,8 @@
 - Logout
 - get the feed and the feed in the store
 - build the userCard on the feed
+- Editprofile Feature
+- added the toast feature
 
 
 
