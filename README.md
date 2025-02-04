@@ -30,6 +30,7 @@
 - build the userCard on the feed
 - Editprofile Feature
 - added the toast feature
+- See all my connections
 
 
 

@@ -2,59 +2,22 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer bg-neutral text-neutral-content p-1 fixed bottom-0">
-            <aside>
-                <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    className="fill-current">
-                    <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
-                </svg>
-                <p>
-                    Developer's Community
-                    <br />
-                    Hello Developers let's Connect
-                </p>
-            </aside>
-            <nav>
-                <h6 className="footer-title -mx-15">Connect with me</h6>
-                <div className="grid grid-flow-col gap-5">
-                    <a href="https://github.com/Mohitsinghparmarg" target="_blank" rel="noopener noreferrer">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.17c-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.087-.744.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.304 3.495.997.108-.775.418-1.305.76-1.605-2.665-.303-5.467-1.333-5.467-5.931 0-1.31.467-2.381 1.235-3.221-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.267 1.983-.399 3.003-.404 1.02.005 2.046.137 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.241 2.873.118 3.176.77.84 1.234 1.911 1.234 3.221 0 4.609-2.805 5.625-5.478 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.217.694.825.576 4.765-1.584 8.2-6.081 8.2-11.384 0-6.627-5.373-12-12-12z" />
-                        </svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/mohit-singh-parmar-1ba948274" target="_blank" rel="noopener noreferrer">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path d="M22.23 0H1.77C.79 0 0 .775 0 1.733V22.27C0 23.225.79 24 1.77 24h20.46c.98 0 1.77-.775 1.77-1.733V1.733C24 .775 23.21 0 22.23 0zM7.06 20.452H3.56V9.009h3.5v11.443zM5.31 7.533c-1.12 0-2.03-.916-2.03-2.044 0-1.13.91-2.046 2.03-2.046s2.03.916 2.03 2.046c0 1.128-.91 2.044-2.03 2.044zM20.45 20.452h-3.5v-5.573c0-1.328-.027-3.04-1.85-3.04-1.85 0-2.13 1.447-2.13 2.94v5.673h-3.5V9.009h3.36v1.563h.05c.47-.89 1.61-1.82 3.32-1.82 3.55 0 4.2 2.34 4.2 5.377v6.323z" />
-                        </svg>
-                    </a>
-                    <a href="https://x.com/MohitParma13378" target="_blank" rel="noopener noreferrer">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path d="M23.44 4.58c-.89.39-1.85.65-2.86.76a4.93 4.93 0 0 0 2.17-2.72c-.92.54-1.94.92-3.04 1.13a4.89 4.89 0 0 0-8.34 4.46c-4.07-.19-7.68-2.16-10.1-5.14a4.86 4.86 0 0 0-.66 2.47c0 1.71.87 3.22 2.19 4.1a4.89 4.89 0 0 1-2.21-.61v.06c0 2.37 1.68 4.35 3.91 4.79-.41.11-.84.17-1.28.17-.31 0-.61-.03-.91-.09.61 1.91 2.39 3.3 4.5 3.34a9.79 9.79 0 0 1-7.23 2.03c2.11 1.35 4.62 2.14 7.28 2.14 8.74 0 13.54-7.25 13.54-13.53 0-.21-.01-.42-.03-.63a9.91 9.91 0 0 0 2.43-2.52z"/>
-                        </svg>
-                    </a>
-                </div>
-            </nav>
+        <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-4 px-6 flex flex-col md:flex-row items-center justify-between shadow-lg border-t border-gray-700">
+            <div className="text-center md:text-left">
+                <h2 className="text-lg font-semibold">Developer's Community</h2>
+                <p className="text-sm text-gray-400">Let's Connect and Build Together</p>
+            </div>
+            <div className="flex space-x-6 mt-3 md:mt-0">
+                <a href="https://github.com/Mohitsinghparmarg" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition duration-300">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/mohit-singh-parmar-1ba948274" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition duration-300">
+                    LinkedIn
+                </a>
+                <a href="https://x.com/MohitParma13378" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition duration-300">
+                    Twitter
+                </a>
+            </div>
         </footer>
     );
 };
