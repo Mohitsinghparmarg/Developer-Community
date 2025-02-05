@@ -30,7 +30,9 @@
 - build the userCard on the feed
 - Editprofile Feature
 - added the toast feature
-- See all my connections
+- New Page - See all my connections
+- New Page - See All my Connection Requests
+- Build the Feature of accept/reject the Connection Request
 
 
 
