@@ -34,23 +34,21 @@ const Connections = () => {
     }
 
     return (
-        <div className="flex flex-col items-center my-10">
+        <div className="text-center my-10">
             <h1 className="font-bold text-2xl mb-6">Connections</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="flex flex-col items-center space-y-6">
                 {connections.map((connection) => {
-                    const { firstName, lastName, age, gender, photoUrl, about } = connection;
+                    const { _id, firstName, lastName, photoUrl, age, gender, about } = connection;
 
                     return (
-                        <div key={connection._id} className="relative w-80 h-[450px] rounded-xl overflow-hidden shadow-xl bg-white transform transition-transform duration-300 hover:scale-105">
-                            <img src={photoUrl} alt={firstName} className="w-full h-full object-cover" />
-                            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-transparent to-transparent p-4 text-white">
-                                <h2 className="text-xl font-bold">{firstName} {lastName}, {age}</h2>
-                                <p className="text-sm text-gray-300">{gender}</p>
-                                <p className="mt-2 text-sm">{about}</p>
-                                <div className="flex justify-between mt-4">
-                                    <button className="px-4 py-2 bg-green-500 text-white rounded-full shadow-md hover:bg-green-600 transition">Interested</button>
-                                    <button className="px-4 py-2 bg-red-500 text-white rounded-full shadow-md hover:bg-red-600 transition">Ignore</button>
-                                </div>
+                        <div key={_id} className="flex items-center m-4 p-6 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 w-3/4 mx-auto shadow-xl transform transition-transform hover:scale-105">
+                            <div>
+                                <img alt="photo" className="w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg" src={photoUrl} />
+                            </div>
+                            <div className="text-left mx-6 text-white">
+                                <h2 className="font-bold text-2xl">{firstName} {lastName}</h2>
+                                {age && gender && <p className="text-lg">{age}, {gender}</p>}
+                                <p className="mt-2 text-sm italic">{about}</p>
                             </div>
                         </div>
                     );

@@ -33,6 +33,8 @@
 - New Page - See all my connections
 - New Page - See All my Connection Requests
 - Build the Feature of accept/reject the Connection Request
+- Send/Ignore the user card from the feed
+- Make SignUp Form
 
 
 
